@@ -68,9 +68,9 @@ public class LetTheCarWorkSteps {
         new LetTheCarWorkPage(driver).clickSubmitButton();
     }
 //
-    @Then("Car adding failed Message is displayed")
-    public void Car_adding_failed_Message_is_displayed(){
-       new LetTheCarWorkPage(driver).isMessage("JWT strings must contain exactly 2 period characters. Found: 0");
+    @Then("Car adding Message is displayed")
+    public void Car_adding_Message_is_displayed(){
+       new LetTheCarWorkPage(driver).isMessage("1223 juk 2 added successful");
     }
 
 

@@ -3,6 +3,9 @@ Feature: Rent Out Car
   Scenario: Provide Car Details for Rental
     Given User launches Chrome browser
     When User opens ilCarro HomePage
+  And User click on Login link
+  And User enters valid data
+  And User click on Yalla button
     And User clicks on the Let the car work link
     And User fills Location details
     And User fills Manufacturer
@@ -16,4 +19,4 @@ Feature: Rent Out Car
     And User fills About that car
     And User uploads photos of the car
     And User clicks on the Submit button
-    Then Car adding failed Message is displayed
+    Then Car adding Message is displayed
